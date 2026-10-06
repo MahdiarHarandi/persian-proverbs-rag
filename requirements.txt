@@ -1,0 +1,8 @@
+accelerate==1.13.0
+gradio==6.26.0
+huggingface_hub==1.28.0
+lm-format-enforcer==0.11.3
+numpy>=2.0,<3
+safetensors==0.8.0
+sentence-transformers==6.0.0
+transformers==5.15.1

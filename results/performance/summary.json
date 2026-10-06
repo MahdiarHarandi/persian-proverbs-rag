@@ -1,0 +1,61 @@
+{
+  "schema": "ppq-bachelor-project-final-results-v1",
+  "note": "Post-freeze evaluation results to be packaged with the unchanged PPQ runtime.",
+  "final_practical_benchmark": {
+    "n": 200,
+    "manifest_sha256": "9a9af819aa020ee71f4ed1b62151972315dda67e1a63ff3ecc9e48211308ffc8",
+    "automatic": {
+      "route_accuracy": 0.97,
+      "action_accuracy": 0.945,
+      "runtime_decision_accuracy": 0.87,
+      "response_decision_accuracy": 0.865,
+      "family_accuracy": 0.8258,
+      "end_to_end_accuracy": 0.81
+    },
+    "blind_ab": {
+      "comparable_n": 185,
+      "ppq": {
+        "task_fulfillment": 0.8,
+        "ffe_authenticity": 0.9937,
+        "ffe_appropriateness": 0.9747,
+        "fabricated_or_unattested_ffe": 0.0108
+      },
+      "gemma_base": {
+        "task_fulfillment": 0.2,
+        "ffe_authenticity": 0.4516,
+        "ffe_appropriateness": 0.5549,
+        "fabricated_or_unattested_ffe": 0.3135
+      },
+      "pairwise_preference": {
+        "ppq_wins": 167,
+        "base_wins": 11,
+        "ties": 7,
+        "ppq_win_rate_non_tie": 0.9382
+      }
+    },
+    "latency_seconds": {
+      "paired_n": 200,
+      "base_median": 29.287,
+      "ppq_median": 17.589,
+      "paired_median_difference_ppq_minus_base": -12.588,
+      "paired_median_relative_difference": -0.418,
+      "median_ppq_base_ratio": 0.582,
+      "base_p95": 31.737,
+      "ppq_p95": 114.912
+    }
+  },
+  "locked_v10_reference": {
+    "n": 143,
+    "decision_contract_accuracy": 0.6713286713286714,
+    "family_accuracy": 0.6630434782608695,
+    "automatic_e2e_accuracy": 0.6258992805755396,
+    "structural_safety": 1.0,
+    "latency_seconds": {
+      "mean": 28.07574037062937,
+      "median": 18.108348,
+      "p95": 61.463642,
+      "max": 142.374704
+    },
+    "scientific_status": "consumed; no post-hoc tuning"
+  }
+}

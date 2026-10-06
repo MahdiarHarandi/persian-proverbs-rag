@@ -1,0 +1,478 @@
+{
+  "benchmark": "PPQ Practical Benchmark",
+  "benchmark_sha256": "9a9af819aa020ee71f4ed1b62151972315dda67e1a63ff3ecc9e48211308ffc8",
+  "n": 200,
+  "categories": {
+    "attest_and_explain": 10,
+    "attestation_false": 20,
+    "attestation_true": 20,
+    "clarify": 5,
+    "explain": 20,
+    "general": 10,
+    "mixed_general_ffe": 10,
+    "retrieve_multiple": 10,
+    "search_by_meaning": 25,
+    "search_by_scenario": 20,
+    "surface_completion": 25,
+    "surface_noisy": 15,
+    "surface_wrong_word": 10
+  },
+  "ppq_automatic": {
+    "decision": {
+      "correct": 173,
+      "total": 200,
+      "accuracy": 0.865
+    },
+    "runtime": {
+      "correct": 174,
+      "total": 200,
+      "accuracy": 0.87
+    },
+    "route": {
+      "correct": 194,
+      "total": 200,
+      "accuracy": 0.97
+    },
+    "action": {
+      "correct": 189,
+      "total": 200,
+      "accuracy": 0.945
+    },
+    "family": {
+      "correct": 128,
+      "total": 155,
+      "accuracy": 0.8258064516129032
+    },
+    "automatic_e2e": {
+      "correct": 162,
+      "total": 200,
+      "accuracy": 0.81
+    }
+  },
+  "ppq_by_category": {
+    "attest_and_explain": {
+      "decision": {
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0
+      },
+      "runtime": {
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0
+      },
+      "route": {
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0
+      },
+      "action": {
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0
+      },
+      "family": {
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0
+      },
+      "automatic_e2e": {
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0
+      }
+    },
+    "attestation_false": {
+      "decision": {
+        "correct": 19,
+        "total": 20,
+        "accuracy": 0.95
+      },
+      "runtime": {
+        "correct": 19,
+        "total": 20,
+        "accuracy": 0.95
+      },
+      "route": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      },
+      "action": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      },
+      "family": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "automatic_e2e": {
+        "correct": 19,
+        "total": 20,
+        "accuracy": 0.95
+      }
+    },
+    "attestation_true": {
+      "decision": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      },
+      "runtime": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      },
+      "route": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      },
+      "action": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      },
+      "family": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      },
+      "automatic_e2e": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      }
+    },
+    "clarify": {
+      "decision": {
+        "correct": 5,
+        "total": 5,
+        "accuracy": 1.0
+      },
+      "runtime": {
+        "correct": 5,
+        "total": 5,
+        "accuracy": 1.0
+      },
+      "route": {
+        "correct": 5,
+        "total": 5,
+        "accuracy": 1.0
+      },
+      "action": {
+        "correct": 5,
+        "total": 5,
+        "accuracy": 1.0
+      },
+      "family": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "automatic_e2e": {
+        "correct": 5,
+        "total": 5,
+        "accuracy": 1.0
+      }
+    },
+    "explain": {
+      "decision": {
+        "correct": 19,
+        "total": 20,
+        "accuracy": 0.95
+      },
+      "runtime": {
+        "correct": 19,
+        "total": 20,
+        "accuracy": 0.95
+      },
+      "route": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      },
+      "action": {
+        "correct": 19,
+        "total": 20,
+        "accuracy": 0.95
+      },
+      "family": {
+        "correct": 19,
+        "total": 20,
+        "accuracy": 0.95
+      },
+      "automatic_e2e": {
+        "correct": 19,
+        "total": 20,
+        "accuracy": 0.95
+      }
+    },
+    "general": {
+      "decision": {
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0
+      },
+      "runtime": {
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0
+      },
+      "route": {
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0
+      },
+      "action": {
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0
+      },
+      "family": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "automatic_e2e": {
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0
+      }
+    },
+    "mixed_general_ffe": {
+      "decision": {
+        "correct": 7,
+        "total": 10,
+        "accuracy": 0.7
+      },
+      "runtime": {
+        "correct": 8,
+        "total": 10,
+        "accuracy": 0.8
+      },
+      "route": {
+        "correct": 9,
+        "total": 10,
+        "accuracy": 0.9
+      },
+      "action": {
+        "correct": 8,
+        "total": 10,
+        "accuracy": 0.8
+      },
+      "family": {
+        "correct": 4,
+        "total": 10,
+        "accuracy": 0.4
+      },
+      "automatic_e2e": {
+        "correct": 3,
+        "total": 10,
+        "accuracy": 0.3
+      }
+    },
+    "retrieve_multiple": {
+      "decision": {
+        "correct": 1,
+        "total": 10,
+        "accuracy": 0.1
+      },
+      "runtime": {
+        "correct": 1,
+        "total": 10,
+        "accuracy": 0.1
+      },
+      "route": {
+        "correct": 8,
+        "total": 10,
+        "accuracy": 0.8
+      },
+      "action": {
+        "correct": 8,
+        "total": 10,
+        "accuracy": 0.8
+      },
+      "family": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "automatic_e2e": {
+        "correct": 1,
+        "total": 10,
+        "accuracy": 0.1
+      }
+    },
+    "search_by_meaning": {
+      "decision": {
+        "correct": 23,
+        "total": 25,
+        "accuracy": 0.92
+      },
+      "runtime": {
+        "correct": 23,
+        "total": 25,
+        "accuracy": 0.92
+      },
+      "route": {
+        "correct": 25,
+        "total": 25,
+        "accuracy": 1.0
+      },
+      "action": {
+        "correct": 25,
+        "total": 25,
+        "accuracy": 1.0
+      },
+      "family": {
+        "correct": 19,
+        "total": 25,
+        "accuracy": 0.76
+      },
+      "automatic_e2e": {
+        "correct": 19,
+        "total": 25,
+        "accuracy": 0.76
+      }
+    },
+    "search_by_scenario": {
+      "decision": {
+        "correct": 17,
+        "total": 20,
+        "accuracy": 0.85
+      },
+      "runtime": {
+        "correct": 17,
+        "total": 20,
+        "accuracy": 0.85
+      },
+      "route": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      },
+      "action": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      },
+      "family": {
+        "correct": 14,
+        "total": 20,
+        "accuracy": 0.7
+      },
+      "automatic_e2e": {
+        "correct": 14,
+        "total": 20,
+        "accuracy": 0.7
+      }
+    },
+    "surface_completion": {
+      "decision": {
+        "correct": 21,
+        "total": 25,
+        "accuracy": 0.84
+      },
+      "runtime": {
+        "correct": 21,
+        "total": 25,
+        "accuracy": 0.84
+      },
+      "route": {
+        "correct": 22,
+        "total": 25,
+        "accuracy": 0.88
+      },
+      "action": {
+        "correct": 22,
+        "total": 25,
+        "accuracy": 0.88
+      },
+      "family": {
+        "correct": 21,
+        "total": 25,
+        "accuracy": 0.84
+      },
+      "automatic_e2e": {
+        "correct": 21,
+        "total": 25,
+        "accuracy": 0.84
+      }
+    },
+    "surface_noisy": {
+      "decision": {
+        "correct": 14,
+        "total": 15,
+        "accuracy": 0.9333333333333333
+      },
+      "runtime": {
+        "correct": 14,
+        "total": 15,
+        "accuracy": 0.9333333333333333
+      },
+      "route": {
+        "correct": 15,
+        "total": 15,
+        "accuracy": 1.0
+      },
+      "action": {
+        "correct": 15,
+        "total": 15,
+        "accuracy": 1.0
+      },
+      "family": {
+        "correct": 14,
+        "total": 15,
+        "accuracy": 0.9333333333333333
+      },
+      "automatic_e2e": {
+        "correct": 14,
+        "total": 15,
+        "accuracy": 0.9333333333333333
+      }
+    },
+    "surface_wrong_word": {
+      "decision": {
+        "correct": 7,
+        "total": 10,
+        "accuracy": 0.7
+      },
+      "runtime": {
+        "correct": 7,
+        "total": 10,
+        "accuracy": 0.7
+      },
+      "route": {
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0
+      },
+      "action": {
+        "correct": 7,
+        "total": 10,
+        "accuracy": 0.7
+      },
+      "family": {
+        "correct": 7,
+        "total": 10,
+        "accuracy": 0.7
+      },
+      "automatic_e2e": {
+        "correct": 7,
+        "total": 10,
+        "accuracy": 0.7
+      }
+    }
+  },
+  "base_comparison": "blind A/B review",
+  "review_fields": [
+    "task_fulfilled",
+    "authentic",
+    "appropriate",
+    "fabricated",
+    "better_response"
+  ]
+}

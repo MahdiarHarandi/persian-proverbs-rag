@@ -1,0 +1,23 @@
+{
+  "benchmark_name": "PPQ Practical Benchmark",
+  "status": "SEALED_PRE_INFERENCE",
+  "n": 200,
+  "sha256": "9a9af819aa020ee71f4ed1b62151972315dda67e1a63ff3ecc9e48211308ffc8",
+  "categories": {
+    "surface_completion": 25,
+    "surface_noisy": 15,
+    "surface_wrong_word": 10,
+    "attestation_true": 20,
+    "attestation_false": 20,
+    "explain": 20,
+    "search_by_meaning": 25,
+    "search_by_scenario": 20,
+    "retrieve_multiple": 10,
+    "attest_and_explain": 10,
+    "general": 10,
+    "clarify": 5,
+    "mixed_general_ffe": 10
+  },
+  "comparison_model": "google/gemma-4-E4B-it",
+  "note": "Freeze this file before inference. Do not tune the system from its results if it is used as the thesis test set."
+}

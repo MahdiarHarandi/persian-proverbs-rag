@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ppq-assistant"
+version = "1.0.0"
+description = "Corpus-grounded assistant for exact Persian fixed-expression retrieval"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+authors = [{ name = "Mahdiar Harandi" }]
+dependencies = [
+  "accelerate==1.13.0",
+  "gradio==6.26.0",
+  "huggingface-hub==1.28.0",
+  "lm-format-enforcer==0.11.3",
+  "numpy>=2.0,<3",
+  "safetensors==0.8.0",
+  "sentence-transformers==6.0.0",
+  "transformers==5.15.1",
+]
+
+[project.optional-dependencies]
+evaluation = [
+  "matplotlib>=3.10,<4",
+  "scipy>=1.17,<2",
+]
+test = [
+  "pytest>=8.4,<10",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
+

@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+evaluation-output/
+
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local environments and generated files
+venv/
+.cache/
+.ipynb_checkpoints/
+build/
+dist/
+*.egg-info/
+*.log
+.DS_Store
+Thumbs.db

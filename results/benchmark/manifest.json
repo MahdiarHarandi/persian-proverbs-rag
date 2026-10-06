@@ -1,0 +1,29 @@
+{
+  "benchmark_sha256": "9a9af819aa020ee71f4ed1b62151972315dda67e1a63ff3ecc9e48211308ffc8",
+  "benchmark_n": 200,
+  "blind_pairs": 185,
+  "blind_seed": 42,
+  "status": "RESULTS_FROZEN",
+  "files": {
+    "summary.json": {
+      "sha256": "32b48c52d28d4ddc02d2458047ea31811494860941fc382bc12f424338cce3d1",
+      "bytes": 9259
+    },
+    "blind_evaluation.json": {
+      "sha256": "4421d545e90dbcec6d05055987289cf85cadbbf73f380ad9ae2187eb6fd20850",
+      "bytes": 1101
+    },
+    "blind_review.csv": {
+      "sha256": "42f34f4c8815cc264e9730431678bcb24571c9115c60ae2585127918fed7225b",
+      "bytes": 287371
+    },
+    "blind_key.jsonl": {
+      "sha256": "630a18d123d693ef33d2090fc77475cfa9719eb36eadca6e9e8f41ee5454b986",
+      "bytes": 7400
+    },
+    "README.md": {
+      "sha256": "93d6e5434d7e8459c0c8eae5cf25c13d591a210324e3ca8440e703f1d7dd2210",
+      "bytes": 1084
+    }
+  }
+}

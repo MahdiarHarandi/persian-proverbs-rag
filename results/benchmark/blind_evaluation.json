@@ -1,0 +1,56 @@
+{
+  "n_blind_pairs": 185,
+  "systems": {
+    "BASE": {
+      "task_fulfilled": {
+        "positive": 37,
+        "total": 185,
+        "rate": 0.2
+      },
+      "authentic": {
+        "positive": 56,
+        "total": 124,
+        "rate": 0.45161290322580644
+      },
+      "appropriate": {
+        "positive": 91,
+        "total": 164,
+        "rate": 0.5548780487804879
+      },
+      "fabricated": {
+        "positive": 58,
+        "total": 185,
+        "rate": 0.31351351351351353
+      }
+    },
+    "PPQ": {
+      "task_fulfilled": {
+        "positive": 148,
+        "total": 185,
+        "rate": 0.8
+      },
+      "authentic": {
+        "positive": 157,
+        "total": 158,
+        "rate": 0.9936708860759493
+      },
+      "appropriate": {
+        "positive": 154,
+        "total": 158,
+        "rate": 0.9746835443037974
+      },
+      "fabricated": {
+        "positive": 2,
+        "total": 185,
+        "rate": 0.010810810810810811
+      }
+    }
+  },
+  "pairwise": {
+    "PPQ": 167,
+    "BASE": 11,
+    "TIE": 7,
+    "decisive": 178,
+    "ppq_win_rate_decisive": 0.9382022471910112
+  }
+}
